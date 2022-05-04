@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T15:39:34.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="2HW-D37WoN2oaNAbYB8x" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-04T15:52:30.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="kRIlmQyCWw7n18QmtQvO" version="17.5.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="AqXhPSVFqO0AoULpWd5d-0" value="app_simulator.cpp" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="190" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AqXhPSVFqO0AoULpWd5d-3" value="do_we_want_speedchange" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AqXhPSVFqO0AoULpWd5d-0">
+          <mxGeometry x="-5" y="90" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AqXhPSVFqO0AoULpWd5d-4" value="do_we_want_diagnostics_External_speedchange" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AqXhPSVFqO0AoULpWd5d-0">
+          <mxGeometry x="-65" y="120" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AqXhPSVFqO0AoULpWd5d-1" value="speedchange_start_time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="250" width="150" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
