@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T15:59:28.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="zdSPOg8NRuafEScuEDZ_" version="17.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T16:41:40.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="LI5fuFT_aUumL3adpO0m" version="17.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -20,7 +20,7 @@
           <mxGeometry y="52" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OEwlhgOisUWlzvMJakh7-13" value="app_simulator.cpp" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="377" width="570" height="252" as="geometry" />
+          <mxGeometry x="30" y="377" width="570" height="326" as="geometry" />
         </mxCell>
         <mxCell id="OEwlhgOisUWlzvMJakh7-14" value="+ double speedchange_start_time = 200;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-13">
           <mxGeometry y="26" width="570" height="26" as="geometry" />
@@ -37,11 +37,11 @@
         <mxCell id="OEwlhgOisUWlzvMJakh7-22" value="if (t &gt; speedchange_start_time &amp;&amp; do_we_want_diagnostics_External_speedchange) {&#xa;        sendDiagnostics_Request(sock, 0, 1, t);&#xa;        const auto response0 = reader.receive_message_until(static_cast&lt;uint8_t&gt;(200));&#xa;        .......}&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-13">
           <mxGeometry y="130" width="570" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="OEwlhgOisUWlzvMJakh7-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-13">
-          <mxGeometry y="200" width="570" height="26" as="geometry" />
+        <mxCell id="OEwlhgOisUWlzvMJakh7-23" value="if (t &gt; speedchange_start_time &amp;&amp; do_we_want_speedchange) {&#xa;        int belt_nr = 11;&#xa;     double t_start_speedchange = 206.85;&#xa;     double new_speed = 5000; &#xa;     ..... AnnounceEnableBeltSpeedChange....sendProcessParameterUpdate....}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-13">
+          <mxGeometry y="200" width="570" height="100" as="geometry" />
         </mxCell>
         <mxCell id="OEwlhgOisUWlzvMJakh7-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-13">
-          <mxGeometry y="226" width="570" height="26" as="geometry" />
+          <mxGeometry y="300" width="570" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OEwlhgOisUWlzvMJakh7-17" value="simulator_send.cpp" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="500" y="260" width="250" height="104" as="geometry" />
