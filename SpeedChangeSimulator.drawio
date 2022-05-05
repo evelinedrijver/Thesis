@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T17:08:19.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="uR3XdZ0xrdunNa8Fxb06" version="17.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T17:12:38.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="gCvgOBK-QrrLAiSqr_IM" version="17.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1221" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -132,6 +132,24 @@
         </mxCell>
         <mxCell id="OEwlhgOisUWlzvMJakh7-56" value="+ inline cfs::Message Diagnostics_Performance_Products(const int Missed_Products, const int Supplied_Products) {" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-53">
           <mxGeometry y="80" width="910" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="OEwlhgOisUWlzvMJakh7-58" value="cfs_send_messages.hpp" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1760" width="910" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="OEwlhgOisUWlzvMJakh7-59" value="+  inline void sendDiagnostics_AllRobots_FillingRate(cfs_socket&amp; connect_socket, const std::vector&lt;int&gt;&amp; Robot_fillingrates) {" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-58">
+          <mxGeometry y="26" width="910" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OEwlhgOisUWlzvMJakh7-60" value="... another 9 messages " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-58">
+          <mxGeometry y="52" width="910" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="OEwlhgOisUWlzvMJakh7-61" value="+  inline void sendDiagnostics_Performance_Products(cfs_socket&amp; connect_socket, const int Missed_Products, const int Supplied_Products) {" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;fontStyle=0" vertex="1" parent="OEwlhgOisUWlzvMJakh7-58">
+          <mxGeometry y="80" width="910" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="OEwlhgOisUWlzvMJakh7-62" value="cfs_config.hpp" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1900" width="910" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="OEwlhgOisUWlzvMJakh7-63" value="+ enum class reschedule_type { ALL, ONLY_CRITICAL };" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-62">
+          <mxGeometry y="26" width="910" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
