@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T17:25:28.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="X2EAboBIHr-fh5-WobpF" version="17.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T17:28:19.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="TfcoaLdW8wzBSziw0HMt" version="17.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1221" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -180,6 +180,15 @@
         </mxCell>
         <mxCell id="OEwlhgOisUWlzvMJakh7-80" value="+  case(COM_DIAGNOSTICS_REQUEST):&#xa;        handleDiagnostics_Request(socket, message, state, scheduler, output);&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-78">
           <mxGeometry y="70" width="910" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OEwlhgOisUWlzvMJakh7-85" value="cfs_rescheduling.cpp" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="2410" width="910" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OEwlhgOisUWlzvMJakh7-86" value="+ int clear_schedules_after_RobotSpecific(" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-85">
+          <mxGeometry y="26" width="910" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="OEwlhgOisUWlzvMJakh7-87" value="&quot;Method that resets the schedules for products which have not been sent yet. (Robot specific)&quot;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="OEwlhgOisUWlzvMJakh7-85">
+          <mxGeometry y="60" width="910" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
