@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T10:06:37.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="JmKBkSBjKYuHH9A7BKnZ" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T17:45:28.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="IPbmxIE7lQPyOL1P8Nbp" version="18.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1953" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         <mxCell id="OEwlhgOisUWlzvMJakh7-30" value="NEW" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" parent="OEwlhgOisUWlzvMJakh7-29" vertex="1">
           <mxGeometry y="26" width="870" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OEwlhgOisUWlzvMJakh7-31" value="+ void handleBeltSpeedChange(cfs_socket&amp; connect_socket, const receive_message&amp; message, State&amp; state, Scheduler&amp; scheduler) {&#xa;        extractBeltSpeedChange(message);&#xa;        scheduler.external_speedchange    &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" parent="OEwlhgOisUWlzvMJakh7-29" vertex="1">
+        <mxCell id="OEwlhgOisUWlzvMJakh7-31" value="+ void handleBeltSpeedChange(cfs_socket&amp; connect_socket, const receive_message&amp; message, State&amp; state, Scheduler&amp; scheduler) {&#xa;        extractBeltSpeedChange(message);&#xa;        scheduler.external_speedchange    &#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" parent="OEwlhgOisUWlzvMJakh7-29" vertex="1">
           <mxGeometry y="52" width="870" height="68" as="geometry" />
         </mxCell>
         <mxCell id="OEwlhgOisUWlzvMJakh7-33" value="cfs_handleDiagnostics_Request.cpp" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
