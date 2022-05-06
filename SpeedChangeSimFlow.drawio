@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T10:55:27.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="8nEVihrIxSyqVwEcXPzr" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T10:57:50.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="J2AA5xh8K4-XoYx007-W" version="18.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2031" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="EYBe7RXyCbwJ-zNvKkWg-19" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="80" width="700" height="490" as="geometry" />
+        </mxCell>
         <mxCell id="EYBe7RXyCbwJ-zNvKkWg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EYBe7RXyCbwJ-zNvKkWg-8" target="EYBe7RXyCbwJ-zNvKkWg-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -36,6 +39,15 @@
         </mxCell>
         <mxCell id="EYBe7RXyCbwJ-zNvKkWg-17" value="Send message with belt number, time and speed to socket:&lt;br&gt;&lt;i&gt;connect_socket.send_message(message)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="615" y="600" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYBe7RXyCbwJ-zNvKkWg-21" value="app_simulator.cpp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="86" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EYBe7RXyCbwJ-zNvKkWg-23" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="570" width="700" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EYBe7RXyCbwJ-zNvKkWg-24" value="Simulator_send.cpp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="570" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
