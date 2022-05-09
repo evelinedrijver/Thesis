@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T14:33:01.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="aOpVOsICc7cf5Jp-AsVE" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T14:34:48.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="AiRWv6PERo219rPt052C" version="18.0.2" type="github">
   <diagram id="6dGspaSZ-LBUG3jmxN4q" name="Page-1">
     <mxGraphModel dx="1221" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="nNCJjdia4qGImyiOLjnr-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-3" target="nNCJjdia4qGImyiOLjnr-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nNCJjdia4qGImyiOLjnr-3" value="Declare if and when a speed change should occur and what the new speed should be on which belt" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="nNCJjdia4qGImyiOLjnr-3" value="Declare if you want diagnostics" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="780" y="130" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nNCJjdia4qGImyiOLjnr-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-7" target="nNCJjdia4qGImyiOLjnr-8">
@@ -22,7 +22,7 @@
         <mxCell id="nNCJjdia4qGImyiOLjnr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-7" target="nNCJjdia4qGImyiOLjnr-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nNCJjdia4qGImyiOLjnr-7" value="Is current time &amp;gt;&amp;nbsp; time &lt;br&gt;of the speed change?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+        <mxCell id="nNCJjdia4qGImyiOLjnr-7" value="Is current time &amp;gt;&amp;nbsp; time &lt;br&gt;of the speed change? &amp;amp; Do we want diagnostics?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
           <mxGeometry x="790" y="260" width="180" height="125" as="geometry" />
         </mxCell>
         <mxCell id="nNCJjdia4qGImyiOLjnr-8" value="No speed change&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
