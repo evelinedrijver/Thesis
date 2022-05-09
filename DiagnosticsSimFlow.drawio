@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T14:37:30.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="FUMmVZI4VjGRGmuCx4D3" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T14:53:59.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="_AFsegTBAKzUWh5DTqcb" version="18.0.2" type="github">
   <diagram id="6dGspaSZ-LBUG3jmxN4q" name="Page-1">
     <mxGraphModel dx="1221" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nNCJjdia4qGImyiOLjnr-14" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="570" width="730" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="nNCJjdia4qGImyiOLjnr-1" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="80" width="700" height="490" as="geometry" />
+          <mxGeometry x="510" y="80" width="730" height="490" as="geometry" />
         </mxCell>
         <mxCell id="nNCJjdia4qGImyiOLjnr-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-3" target="nNCJjdia4qGImyiOLjnr-7">
           <mxGeometry relative="1" as="geometry" />
@@ -34,17 +37,14 @@
         <mxCell id="nNCJjdia4qGImyiOLjnr-10" value="&lt;i&gt;sendDiagnostics_Request&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
           <mxGeometry x="630" y="480" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nNCJjdia4qGImyiOLjnr-11" value="&lt;i&gt;sendProcessParameterUpdate&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="910" y="480" width="220" height="60" as="geometry" />
+        <mxCell id="nNCJjdia4qGImyiOLjnr-11" value="Print message that is currently on socket with:&lt;br&gt;&lt;i&gt;&amp;nbsp;const auto response0 = reader.receive_message_until(static_cast&amp;lt;uint8_t&amp;gt;(200));&lt;/i&gt;&lt;br&gt;&lt;i&gt;reader.print_message(response0);&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="880" y="480" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nNCJjdia4qGImyiOLjnr-12" value="Send message with belt number, time and speed to socket:&lt;br&gt;&lt;i&gt;connect_socket.send_message(message)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+        <mxCell id="nNCJjdia4qGImyiOLjnr-12" value="Send message with table and segment number and actual time to socket:&lt;br&gt;&lt;i&gt;connect_socket.send_message(message)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
           <mxGeometry x="615" y="600" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nNCJjdia4qGImyiOLjnr-13" value="app_simulator.cpp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="86" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="nNCJjdia4qGImyiOLjnr-14" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="570" width="700" height="130" as="geometry" />
         </mxCell>
         <mxCell id="nNCJjdia4qGImyiOLjnr-15" value="Simulator_send.cpp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="570" width="60" height="30" as="geometry" />
