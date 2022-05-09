@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T14:53:59.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="_AFsegTBAKzUWh5DTqcb" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T14:54:44.972Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="EIyy0oN6IgXC9J_tS2w2" version="18.0.2" type="github">
   <diagram id="6dGspaSZ-LBUG3jmxN4q" name="Page-1">
-    <mxGraphModel dx="1221" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,6 +54,229 @@
         </mxCell>
         <mxCell id="nNCJjdia4qGImyiOLjnr-17" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="292.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-18" value="" style="whiteSpace=wrap;html=1;fillColor=none;container=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="160" width="700" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-19" value="Switch to&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;i&gt;case(COM_SPEED_CHANGE)&lt;/i&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="nNCJjdia4qGImyiOLjnr-18">
+          <mxGeometry x="215" y="155.72916666666669" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-20" value="" style="whiteSpace=wrap;html=1;fillColor=none;container=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="660" width="810" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-21" value="In Schedule_type_base::External_Speedchange&lt;br&gt;apply:" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="nNCJjdia4qGImyiOLjnr-20">
+          <mxGeometry x="213" y="10" width="255" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-22" value="External_SpeedChange_main&lt;br&gt;(connect_socket, time, speed, belt_nr);" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="nNCJjdia4qGImyiOLjnr-20">
+          <mxGeometry x="215.5" y="139.99916666666672" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nNCJjdia4qGImyiOLjnr-20" source="nNCJjdia4qGImyiOLjnr-21" target="nNCJjdia4qGImyiOLjnr-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-24" value="cfs_Schedule_type_base.cpp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nNCJjdia4qGImyiOLjnr-20">
+          <mxGeometry x="70" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-25" value="horizon.get_product_inflow(time)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="nNCJjdia4qGImyiOLjnr-20">
+          <mxGeometry x="10" y="140" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nNCJjdia4qGImyiOLjnr-20" source="nNCJjdia4qGImyiOLjnr-21" target="nNCJjdia4qGImyiOLjnr-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-27" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="81" width="700" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-28" value="app_client.cpp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="86" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-30" target="nNCJjdia4qGImyiOLjnr-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-30" value="In&amp;nbsp;&lt;i&gt;communicationWithPackagingLineBPA&amp;nbsp;&lt;/i&gt;&lt;br&gt;read messages from socket with:&lt;br&gt;&lt;i&gt;sock.read_message()&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="174" width="250" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-32" target="nNCJjdia4qGImyiOLjnr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-32" value="With &lt;i&gt;handle_message &lt;/i&gt;the message is delivered to the right function.&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="250" width="250" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-34" value="&lt;i&gt;communicationWithPackagingLineBPA&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="100" width="250" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-35" value="cfs_algorithmLIME.cpp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-36" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="390" width="530" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-38" target="nNCJjdia4qGImyiOLjnr-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-38" value="&lt;i&gt;handleBeltSpeedChange(socket, message, state, scheduler)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="409.99916666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-19" target="nNCJjdia4qGImyiOLjnr-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-40" value="cfs_&lt;i&gt;handleBeltSpeedChange&lt;/i&gt;.cpp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="403" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-42" target="nNCJjdia4qGImyiOLjnr-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-42" value="Unpack message with:&lt;i&gt; extractBeltSpeedChange(message);&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="479.99916666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-43" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="390" width="170" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-44" value="&lt;i&gt;cfs_interpretCommands.hpp&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1895" y="403" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-46" target="nNCJjdia4qGImyiOLjnr-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-46" value="Definition of&amp;nbsp;&lt;br&gt;&lt;i&gt;extractBeltSpeedChange&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="480" width="150" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-48" target="nNCJjdia4qGImyiOLjnr-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-48" value="Pass content of message to &lt;i&gt;scheduler.external_speedchange&lt;br&gt;(connect_socket, time, speed, belt_nr)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1523" y="560" width="255" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-21" target="nNCJjdia4qGImyiOLjnr-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-21" target="nNCJjdia4qGImyiOLjnr-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-21" target="nNCJjdia4qGImyiOLjnr-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-52" value="schedule_leaving_prod(time)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1844" y="798.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-53" value="horizon.clean_horizon(time)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1844" y="848.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-54" value="manager.clean_up_reservations(time)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1844" y="898.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-55" value="" style="whiteSpace=wrap;html=1;fillColor=none;container=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="970" width="1350" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-56" value="In Schedule_type_base::External_SpeedChange_main&lt;br&gt;apply:" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="nNCJjdia4qGImyiOLjnr-55">
+          <mxGeometry x="453" y="101.61" width="314.5" height="48.39" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-57" value="External_SpeedChange_main&lt;br&gt;(connect_socket, time, speed, belt_nr);" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="nNCJjdia4qGImyiOLjnr-55">
+          <mxGeometry x="491.21000000000004" y="210" width="238.08" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nNCJjdia4qGImyiOLjnr-55" source="nNCJjdia4qGImyiOLjnr-56" target="nNCJjdia4qGImyiOLjnr-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-59" value="cfs_External_belt_SpeedChange.cpp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nNCJjdia4qGImyiOLjnr-55">
+          <mxGeometry x="70.00333333333332" y="0.0025806451612879755" width="100" height="60.96774193548387" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-22" target="nNCJjdia4qGImyiOLjnr-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-61" value="Calculate &lt;i&gt;new_mod_speed&lt;/i&gt; and &lt;i&gt;old_speed&lt;/i&gt; (= current speed)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1329.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-62" value="Calculate hopeless and critical boxes&amp;nbsp;&lt;br&gt;@ time of speed change&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1329.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-65" target="nNCJjdia4qGImyiOLjnr-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-65" target="nNCJjdia4qGImyiOLjnr-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1705" y="1400" />
+              <mxPoint x="1445" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-65" value="External_update_speed" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1329.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-68" target="nNCJjdia4qGImyiOLjnr-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1965" y="1376.0824999999995" as="sourcePoint" />
+            <mxPoint x="1900" y="1554.0408333333335" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1965" y="1422" />
+              <mxPoint x="1880" y="1422" />
+              <mxPoint x="1880" y="1554" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-68" value="&lt;i&gt;update_robot_schedules&lt;/i&gt; adjusted to pass number of invalid schedules" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1329.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-69" value="&amp;nbsp;reschedule is used to calculate the new number of critical boxes.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="1329.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-70" value="state.boxbelt.speed_update" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1439.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-71" value="state.prodbelt.speed_update" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1439.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-72" value="&lt;i&gt;robot.when_are_places_invalid &lt;/i&gt;is passes start time of invalid schedule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1469.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-73" value="&lt;i&gt;clear_schedules_after_RobotSpecific&amp;nbsp;&lt;/i&gt;clears schedules after invalid schedule of specific robot" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1529.9991666666667" width="250" height="44.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-57" target="nNCJjdia4qGImyiOLjnr-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1650" y="1270" />
+              <mxPoint x="1185" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-57" target="nNCJjdia4qGImyiOLjnr-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1650" y="1270" />
+              <mxPoint x="1445" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-57" target="nNCJjdia4qGImyiOLjnr-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1650" y="1270" />
+              <mxPoint x="1705" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-57" target="nNCJjdia4qGImyiOLjnr-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1650" y="1270" />
+              <mxPoint x="1965" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNCJjdia4qGImyiOLjnr-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nNCJjdia4qGImyiOLjnr-57" target="nNCJjdia4qGImyiOLjnr-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1650" y="1270" />
+              <mxPoint x="2225" y="1270" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
