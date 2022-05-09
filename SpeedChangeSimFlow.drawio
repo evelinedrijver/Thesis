@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T17:30:04.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="5StwSqCL65lDm_09BwB9" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T18:28:13.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="SR2iIFZ0D8gZJtjGqEWe" version="18.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="629" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -365,11 +365,10 @@
         <mxCell id="fYa7OeqP56KHqQCvI543-45" value="In Schedule_type_base::Diagnostics_main&lt;br&gt;switch to right table and segment (received through the extracted message)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2253" y="1530" width="255" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fYa7OeqP56KHqQCvI543-46" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2255.5" y="1659.9991666666667" width="250" height="44.083333333333336" as="geometry" />
-        </mxCell>
-        <mxCell id="fYa7OeqP56KHqQCvI543-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fYa7OeqP56KHqQCvI543-45" target="fYa7OeqP56KHqQCvI543-46">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fYa7OeqP56KHqQCvI543-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fYa7OeqP56KHqQCvI543-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2380.5" y="1659.9991666666665" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fYa7OeqP56KHqQCvI543-48" value="cfs_Diagnostics.cpp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2110" y="1530" width="60" height="30" as="geometry" />
@@ -400,6 +399,69 @@
         </mxCell>
         <mxCell id="fYa7OeqP56KHqQCvI543-113" value="&lt;i&gt;connect_socket.send_message(message)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2025" y="1960" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-119" value="void Schedule_type_base:: get_AllBoxes_CheckoutTime" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2270" y="1660" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-120" value="Time before leaving belt" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2270" y="1730" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-121" value="void Schedule_type_base:: get_AllBoxes_No_packed_layers" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2490" y="1660" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-122" value="Time before leaving belt" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2490" y="1730" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-123" value="void Schedule_type_base:: get_AllBoxes_ContainsProducts_per_type" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2710" y="1660" width="250" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-124" value="Time before leaving belt" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2710" y="1730" width="250" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-126" value="void Schedule_type_base:: get_AllProducts_CheckoutTime" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2970" y="1660" width="240" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-127" value="void Schedule_type_base:: get_AllRobots_FillingRate" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2050" y="1660" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-128" value="Get mean picking time per robot&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2050" y="1730" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-129" value="void Schedule_type_base:: get_AllBoxes_CheckoutTime" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2270" y="1660" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-130" value="Time before leaving belt" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3430" y="1730" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-131" value="void Schedule_type_base:: get_AllProducts_Type" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3640" y="1660" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-132" value="Time before leaving belt" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3640" y="1730" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-133" value="void Schedule_type_base:: get_Performence_Boxes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3850" y="1660" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-134" value="Time before leaving belt" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3850" y="1730" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-136" value="void Schedule_type_base:: get_AllProducts_Lane_ID" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3220" y="1660" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-137" value="Get mean picking time per robot&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3220" y="1730" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-138" value="void Schedule_type_base:: get_AllProducts_Scheduled" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3430" y="1660" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-139" value="Time before leaving belt" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2970" y="1730" width="240" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-141" value="void Schedule_type_base:: get_Performence_Products" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4060" y="1660" width="200" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="fYa7OeqP56KHqQCvI543-142" value="Time before leaving belt" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4060" y="1730" width="200" height="44.08" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
