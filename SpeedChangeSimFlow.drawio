@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T07:23:40.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="6IvaDswH429FSDS7oCcz" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T07:59:03.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="x-nX3-jAuLBsaPnKWUWe" version="18.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2955" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="790" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -469,7 +469,7 @@
         <mxCell id="fYa7OeqP56KHqQCvI543-129" value="void Schedule_type_base:: get_AllBoxes_CheckoutTime" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2270" y="1660" width="200" height="44.08" as="geometry" />
         </mxCell>
-        <mxCell id="fYa7OeqP56KHqQCvI543-130" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="fYa7OeqP56KHqQCvI543-130" value="Vector containing if product is already scheduled for all products" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="3750" y="1730" width="200" height="44.08" as="geometry" />
         </mxCell>
         <mxCell id="umKE50zZnyccZeXG7MwB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fYa7OeqP56KHqQCvI543-131" target="fYa7OeqP56KHqQCvI543-132">
@@ -478,7 +478,7 @@
         <mxCell id="fYa7OeqP56KHqQCvI543-131" value="void Schedule_type_base:: get_AllProducts_Type" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="3960" y="1660" width="200" height="44.08" as="geometry" />
         </mxCell>
-        <mxCell id="fYa7OeqP56KHqQCvI543-132" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="fYa7OeqP56KHqQCvI543-132" value="Vector with type of each product" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="3960" y="1730" width="200" height="44.08" as="geometry" />
         </mxCell>
         <mxCell id="umKE50zZnyccZeXG7MwB-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fYa7OeqP56KHqQCvI543-133" target="fYa7OeqP56KHqQCvI543-134">
@@ -487,7 +487,7 @@
         <mxCell id="fYa7OeqP56KHqQCvI543-133" value="void Schedule_type_base:: get_Performence_Boxes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="4170" y="1660" width="200" height="44.08" as="geometry" />
         </mxCell>
-        <mxCell id="fYa7OeqP56KHqQCvI543-134" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="fYa7OeqP56KHqQCvI543-134" value="Total no boxes, empty boxes, partly filled boxes and packed boxes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="4170" y="1730" width="200" height="44.08" as="geometry" />
         </mxCell>
         <mxCell id="umKE50zZnyccZeXG7MwB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fYa7OeqP56KHqQCvI543-136" target="fYa7OeqP56KHqQCvI543-137">
@@ -496,7 +496,7 @@
         <mxCell id="fYa7OeqP56KHqQCvI543-136" value="void Schedule_type_base:: get_AllProducts_Lane_ID" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="3510" y="1660" width="200" height="44.08" as="geometry" />
         </mxCell>
-        <mxCell id="fYa7OeqP56KHqQCvI543-137" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="fYa7OeqP56KHqQCvI543-137" value="Vector containing lane ID of each product" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="3510" y="1730" width="200" height="44.08" as="geometry" />
         </mxCell>
         <mxCell id="umKE50zZnyccZeXG7MwB-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fYa7OeqP56KHqQCvI543-138" target="fYa7OeqP56KHqQCvI543-130">
@@ -514,7 +514,7 @@
         <mxCell id="fYa7OeqP56KHqQCvI543-141" value="void Schedule_type_base:: get_Performence_Products" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="4380" y="1660" width="200" height="44.08" as="geometry" />
         </mxCell>
-        <mxCell id="fYa7OeqP56KHqQCvI543-142" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="fYa7OeqP56KHqQCvI543-142" value="Total number of products and missed products&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="4380" y="1730" width="200" height="44.08" as="geometry" />
         </mxCell>
         <mxCell id="umKE50zZnyccZeXG7MwB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fYa7OeqP56KHqQCvI543-144" target="fYa7OeqP56KHqQCvI543-145">
