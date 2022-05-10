@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T11:18:41.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="JfpPura82mOwL0-N53Q5" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T11:20:26.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="hvUNKfdYFQ0-gswLM53l" version="18.0.2" type="github">
   <diagram id="gCtPcfJS6JaqNg2GEyyg" name="Page-1">
-    <mxGraphModel dx="5688" dy="3176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1138" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -441,6 +441,9 @@
         </mxCell>
         <mxCell id="_uPSI7V9LJjAf7ilbO6s-132" value="Same approach for every diagnostics function&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="2450" y="1870" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_uPSI7V9LJjAf7ilbO6s-133" value="&lt;span style=&quot;&quot;&gt;Is horizon.get_product_inflow(time)&amp;nbsp;&lt;br&gt;necessary?&lt;br&gt;&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.25;fillColor=#fff2cc;strokeColor=#d6b656;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1580" width="250" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
