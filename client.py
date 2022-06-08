@@ -2,7 +2,7 @@ import socket
 import struct
 
 HEADER = 64
-PORT = 16540
+PORT = 5050  # 16540
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "!DISCONNECT"
 SERVER = socket.gethostbyname(socket.gethostname())  #"127.0.0.1"
@@ -36,7 +36,8 @@ def send(msg):
     # client.send(send_length)
     # client.send(message)
     # print(client.recv(2048).decode(FORMAT))
-    d = struct.pack('ccHcc', (2).to_bytes(1, byteorder='big'), (0).to_bytes(1, byteorder='big'), 6, (70).to_bytes(1, byteorder='big'), (msg).to_bytes(1, byteorder='big'))
+    d = struct.pack('ccHcc', (2).to_bytes(1, byteorder='big'), (0).to_bytes(1, byteorder='big'), 6,
+                    (70).to_bytes(1, byteorder='big'), msg.to_bytes(1, byteorder='big'))
     print(d)
     #d = struct.pack('c c H c c', 2, 0, 6, 70, msg )
     client.sendall(d)
